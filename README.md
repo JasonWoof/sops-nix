@@ -477,7 +477,7 @@ Consider the following nixos configuration example:
 ```nix
 {
   # Permission modes are in octal representation (same as chmod),
-  # the digits represent: user|group|owner
+  # the digits represent: user|group|other
   # 7 - full (rwx)
   # 6 - read and write (rw-)
   # 5 - read and execute (r-x)
